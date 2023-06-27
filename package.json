@@ -1,0 +1,27 @@
+{
+  "name": "rock-paper-scissor",
+  "version": "1.0.0",
+  "description": "An in browser rock/paper/scissor game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmannings/rock-paper-scissor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmannings/rock-paper-scissor/issues"
+  },
+  "homepage": "https://github.com/gmannings/rock-paper-scissor#readme",
+  "devDependencies": {
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@jest/globals": "^29.5.0"
+  }
+}
