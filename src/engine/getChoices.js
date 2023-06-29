@@ -3,7 +3,7 @@
  *
  * @returns {Map<string, {beats: string[], message: string}>}
  */
-function getDefaultChoices() {
+function standard() {
     return new Map([
         ['rock', { beats: ['scissors'], message: 'Rock smashes scissors' }],
         ['scissors', { beats: ['paper'], message: 'Scissors cut paper' }],
@@ -17,7 +17,7 @@ function getDefaultChoices() {
  * @param {string} choiceSet
  * @returns {Map<string, {beats: string[], message: string}>}
  */
-export default function getChoices(choiceSet = 'default') {
+export default function getChoices(choiceSet = 'standard') {
     // To be extended with conditionals when extra choice sets are added.
-    return getDefaultChoices();
+    return standard();
 }
